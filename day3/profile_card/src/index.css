@@ -1,0 +1,92 @@
+body {
+  background-color: rgb(52, 50, 50);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App{
+  background-color: black;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 300px;
+  /* border: 1px solid; */
+  border-radius: 12px;
+}
+
+img{
+  width: 100%;
+  /* border-radius: 12px; */
+  margin-bottom: 0px;
+}
+.About{
+  color: #DCDCDC;
+  padding: 0px 25px;
+}
+h3, h1{
+  color: aliceblue;
+  /* margin: 0px; */
+}
+
+.Desc h3,.Desc p{
+  text-align: left;
+}
+h3{
+  margin-bottom: 0px;
+} 
+.Desc p{
+  font-size: small;
+  margin-top: 0px;
+} 
+
+h1{
+  margin-bottom: 0px;
+}
+
+
+.Name p{
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+.small:hover {
+  font-size: small;
+  cursor: pointer;
+  color: red;
+}
+.small{
+  font-size: small;
+}
+.button_b {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button_E, .button_L{
+font-size: medium;
+cursor: pointer;
+box-sizing: border-box;
+width: 100px;
+height: 34px;
+background: #FFFFFF;
+border: 1px solid #D1D5DB;
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+}
+.button_L{
+  background-color: #5093E2;
+  color: white;
+}
+.contact img{
+  width: 30px;
+}
+.contact{
+  padding:  10px 30px 20px 30px ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}

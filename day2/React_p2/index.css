@@ -1,0 +1,25 @@
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.nav-items{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    justify-content: space-around;
+    cursor: pointer;
+
+}
+.nav-items :hover{
+    color: aqua;
+
+}
+.footer{
+    background-color: gray;
+}
+.img{
+    width: 40px;
+}
