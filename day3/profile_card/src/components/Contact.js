@@ -14,4 +14,5 @@ function Contact(){
         </div>
     )
 }
+console.log(Contact())
 export default Contact

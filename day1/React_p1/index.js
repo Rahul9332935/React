@@ -15,3 +15,4 @@ const myPage =(
 )
 
 ReactDOM.render(myPage, document.getElementById("root"));
+console.log(myPage)
