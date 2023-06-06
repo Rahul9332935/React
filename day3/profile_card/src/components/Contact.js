@@ -7,10 +7,10 @@ import github from "./img/GitHub Icon.png"
 function Contact(){
     return (
         <div className="contact" >
-            <img src={Twitter} alt="twitter" />
-            <img src={facebook} alt="facebook" />
-            <img src={instagram} alt="instagram" />
-            <img src={github} alt="github" />
+            <img src={Twitter} alt="Twitter" />
+            <img src={facebook} alt="Facebook" />
+            <img src={instagram} alt="Instagram" />
+            <img src={github} alt="Github" />
         </div>
     )
 }
